@@ -3,7 +3,7 @@ body {
     background-image:url(https://shorturl.at/ahnDP);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 main {
@@ -16,4 +16,47 @@ padding: 20px;
 
 #name, #email, #age {
     display: block;
+}
+form{
+width: 100vw;
+max-width: 800px;
+min-width: 300px;
+width: 100%;
+}
+
+label {
+    display: block;
+    margin: 1.0rem 0;
+
+}
+
+#submit {
+    display: block;
+    background-color: darkgreen;
+    color: aliceblue;
+    width: 100%;
+    margin: 10px 0;
+    height: 25px;
+}
+textarea {
+    width: 100%;
+    margin: 10px 0 ;
+    border-radius: 6px;
+}
+
+#name, #email, #age {
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 6px;
+    height: 25px;
+}
+select {
+    height: 30px;
+    width: 100%;
+    margin: 10px 0 ;
+}
+
+#recommend, #role, #interest, #improve, #comment {
+    margin-bottom: 0%;
 }
