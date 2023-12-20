@@ -4,6 +4,7 @@ body {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    
 }
 
 main {
@@ -12,6 +13,7 @@ margin: auto;
 text-align: justify;
 width: 50%;
 padding: 20px;
+filter: brightness(10px);
 }
 
 #name, #email, #age {
@@ -59,4 +61,8 @@ select {
 
 #recommend, #role, #interest, #improve, #comment {
     margin-bottom: 0%;
+}
+
+p, h1 {
+    text-shadow: 2cqh;
 }
